@@ -1,0 +1,13 @@
+import time
+
+current_time = time.strftime("%H:%M:%S")
+print(current_time)
+x = current_time[0:2]
+a= int(x)
+
+if(a>=00 and a<12):
+    print("Good Morning")
+elif(a>=12 and a<16):
+    print("Good Afternoon")
+else:
+    print("Good Evening")
