@@ -29,3 +29,6 @@ for char in name:
 print("Let's use a for loop")
 for char in apple:
     print(char)
+
+
+print(name[4])

@@ -17,3 +17,5 @@ print(names[-3:-1])
 
 nm ="Harsh"
 print(nm[-4:-2])
+
+print(names[0:-1])
