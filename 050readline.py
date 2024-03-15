@@ -11,3 +11,10 @@ while True:
   print(f"Marks of student {i} in Maths is: {m1*2}")
   print(f"Marks of student {i} in English is: {m2*2}")
   print(f"Marks of student {i} in SST is: {m3*2}")
+
+
+  # In write lines we need to add \n to add new line
+  f = open('myfile3.txt', 'w')
+lines = ['line 1\n', 'line 2\n', 'line 3\n']
+f.writelines(lines)
+f.close()

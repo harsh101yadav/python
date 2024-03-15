@@ -1,12 +1,12 @@
-class Person:
+class Person:#class
     name = "Harsh"
-    occupation = "Robotics Engineer"
+    occupation = "Robotics Engineer"#attribotes
     networth = 20
 
-    def info(self):
+    def info(self):#method
         print(f"{self.name} is a {self.occupation}")
 
-a= Person()
+a= Person()#object
 b= Person()
 c= Person()
 
